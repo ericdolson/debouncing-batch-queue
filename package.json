@@ -1,0 +1,23 @@
+{
+  "name": "debouncing-batch-queue",
+  "version": "1.0.0",
+  "description": "A queue which will emit and clear its contents when its size, timeout, or both are reached",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericdolson/debouncing-batch-queue.git"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.1",
+    "eslint-loader": "^1.7.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^3.2.0"
+  },
+  "author": "Eric Olson <olson.ericd@gmail.com>",
+  "license": "ISC"
+}
