@@ -50,11 +50,11 @@ dbbq.add('more ribs', 'bbq1');
 dbbq.add('brisket', 'best bbq namespace');
  
 // log...
-// Data: [ 'ribs 0', 'ribs 1' ] Namespace: undefined     <-- reached max size and emitted immediately
-// Data: [ 'ribs 2', 'ribs 3' ] Namespace: undefined     <-- reached max size and emitted immediately
-// Data: [ 'more ribs', 'more ribs' ] Namespace: bbq1    <-- reached max size and emitted immediately
-// Data: [ 'ribs 4' ] Namespace: undefined               <-- was below max size and emitted after timeout
-// Data: [ 'brisket' ] Namespace: another bbq namespace  <-- was below max size and emitted after timeout
+// Data: [ 'ribs 0', 'ribs 1' ] Namespace: undefined   <-- reached max size and emitted immediately
+// Data: [ 'ribs 2', 'ribs 3' ] Namespace: undefined   <-- reached max size and emitted immediately
+// Data: [ 'more ribs', 'more ribs' ] Namespace: bbq1  <-- reached max size and emitted immediately
+// Data: [ 'ribs 4' ] Namespace: undefined             <-- was below max size and emitted after timeout
+// Data: [ 'brisket' ] Namespace: best bbq namespace   <-- was below max size and emitted after timeout
 ```
 
 ## API
