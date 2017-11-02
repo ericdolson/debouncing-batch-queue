@@ -1,6 +1,6 @@
 {
   "name": "debouncing-batch-queue",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A queue which will emit and clear its contents when its size, timeout, or both are reached",
   "main": "index.js",
   "scripts": {
