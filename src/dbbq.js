@@ -28,7 +28,7 @@ module.exports = class DebouncingBatchQueue extends EventEmitter {
 
   _drainQueue(namespace) {
     const q = this._queues[namespace] || { data: [] };
-    this.emit('data', q.data, namespace);
     delete this._queues[namespace];
+    this.emit('data', q.data, namespace);
   }
 };
