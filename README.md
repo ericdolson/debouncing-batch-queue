@@ -1,6 +1,7 @@
 # Debouncing batch queue
 
-A queue which will emit and clear its contents when its size, timeout, or both are reached.
+A queue which will emit and clear its contents when its size or timeout is reached. Ideal for
+aggregating data for bulk apis where batching in a timely manner is best. Or anything really where batching data is needed.
 
 Namespaces can be used to
 utilize multiple internal queues with each maintaining its own debounce timer and max batch size threshold. 
